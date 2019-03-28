@@ -3,7 +3,7 @@ require 'pry'
 
 class InventorysController < ApplicationController
 
-  def in_stock?(entity)
+  def index
     a = params
     binding.pry
   end
