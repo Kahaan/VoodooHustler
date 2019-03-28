@@ -1,5 +1,5 @@
 module Webhook
-  class InventorysController < WebhookController
+  class DialogFlowController < WebhookController
     def endpoint
       a = params
       binding.pry
